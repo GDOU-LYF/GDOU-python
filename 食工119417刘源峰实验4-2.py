@@ -13,4 +13,4 @@ for a in range(0,M+1):#优化
     for b in range(0,M+1):
         c=M-a-b
         if 15*a+9*b+c==M*3:
-            print("{}\t{}\t{}".format(a,b,c))
+            print("{:>4}\t{:>4}\t{:>4}".format(a,b,c))
