@@ -16,7 +16,7 @@ else:
 #     print("")
 count=[0,0]
 for i in range(1,n+1):
-    count[0]+=1
+    count[0]+=1#每次增加一个,模拟C语言的数组下标
     for j in range(i,n+i):
         count[1]+=1
         if count[0]==count[1]:
@@ -25,6 +25,6 @@ for i in range(1,n+1):
         else:
             print("{:>2} ".format(j),end='')
     print("")
-    count[1]=0
+    count[1]=0#模拟C语言的数组下标,每行循环,清空j的下标
 #------------------------------------
 
