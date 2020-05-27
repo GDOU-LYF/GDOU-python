@@ -21,9 +21,9 @@ for i in range(1,n+1):
         count[1]+=1
         if count[0]==count[1]:
             #print("{}\t".format(n),end='')
-            print("%d\t"%n,end='')
+            print("{:>2} ".format(n),end='')
         else:
-            print("{}\t".format(j),end='')
+            print("{:>2} ".format(j),end='')
     print("")
     count[1]=0
 #------------------------------------
